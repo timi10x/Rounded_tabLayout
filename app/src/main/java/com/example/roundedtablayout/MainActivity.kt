@@ -22,7 +22,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
     private fun setAdapters() {
         val adapter = ViewPagerAdapter(supportFragmentManager)
         adapter.addFragment(Fragment1(), "Tab 1")
@@ -30,12 +29,4 @@ class MainActivity : AppCompatActivity() {
         viewPager.adapter = adapter
         tabLayout.setupWithViewPager(pager)
     }
-
-    //this is what i added first
-    //implementation "com.google.android.material:material:1.0.0"
-    //then mans did the layout
-    //and man's gonna add the fragments now
-    //i added the fragments already tho
-    //now, imma create the viewPager adapter for the shii
-
 }
